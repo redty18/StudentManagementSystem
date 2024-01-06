@@ -46,7 +46,11 @@ student3 = Student(id=3, name="Charlie", age=22, grades={"Math": 95, "English": 
 new_student = Student(id=4, name="Mayank", age=20, grades={"Math": 10, "English": 25, "History": 58})
 
 studentList = []
+student1.add_student(student1, studentList)
+student2.add_student(student2, studentList)
+student3.add_student(student3, studentList)
 new_student.add_student(new_student, studentList)
 
 print(student1.find_student_by_id(studentList, 3))
 print(student1.calculate_class_average(studentList))
+
